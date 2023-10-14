@@ -1,0 +1,10 @@
+.navbar__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar__container__inner{
+        width: 20%;
+        justify-content: flex-start;
+    }

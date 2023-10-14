@@ -1,0 +1,87 @@
+.hero__container{
+    margin: 0;
+    padding: 0;
+    height: 732px;
+    overflow: hidden;
+    background: linear-gradient(
+        90deg, rgba(197,234,237,1) 0%, rgba(224,228,237,1) 0%, rgba(237,225,237,1) 31%, rgba(141,217,246,1) 59%, rgba(213,224,239,1) 100%
+    ),
+    url("data:image/svg+xml,%3Csvg id='wave' style='transform:rotate(180deg); transition: 0.3s' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 490'%3E%3Cpath fill='rgba(243, 106, 62, 1)' d='M0,294L1440,0L2880,0L4320,343L5760,147L7200,147L8640,49L10080,49L11520,196L12960,147L14400,196L15840,343L17280,392L18720,294L20160,441L21600,98L23040,392L24480,245L25920,245L27360,98L28800,294L30240,392L31680,147L33120,245L34560,98L34560,490L33120,490L31680,490L30240,490L28800,490L27360,490L25920,490L24480,490L23040,490L21600,490L20160,490L18720,490L17280,490L15840,490L14400,490L12960,490L11520,490L10080,490L8640,490L7200,490L5760,490L4320,490L2880,490L1440,490L0,490Z'%3E%3C/path%3E%3C/svg%3E");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.hero__container::after {
+  content: "";
+  background: linear-gradient(90deg, #ffffff 0.11%, #fffeff 43.35%);
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 771px;
+  left: 0;
+  bottom: 10px;
+  transform: skewY(3.5deg);
+  transform-origin: 100%;
+}
+
+.highlight__text{
+    color: transparent; /* Set the text color to transparent */
+    background: linear-gradient(90deg, #0076CE 0.11%, #9400D3 43.35%);
+    -webkit-background-clip: text; /* Apply the gradient to the text content */
+}
+
+.hero__heading1{
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px;
+}
+.input__container input{
+    color: #AEB0B4;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.input__container button{
+margin: 0;
+border-radius: 10px;
+background: #0076CE;
+}
+
+
+
+/* .hero__container {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background: rgb(57, 27, 112);
+    transform: scale(1, 1);
+  }
+  
+  .hero__container:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    right: -25%;
+    top: 20px;
+  }
+  
+  .hero__container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(57, 27, 112);
+    left: -25%;
+    top: -240px;
+    clip-path: ellipse(100% 15% at -15% 100%);
+  } */
